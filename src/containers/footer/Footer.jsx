@@ -9,7 +9,9 @@ import {
   FaLocationArrow,
   FaMale,
   FaMobileAlt,
+  FaTwitter,
   FaVoicemail,
+  FaYoutube,
 } from "react-icons/fa";
 const Footer = () => (
   <div className="gpt3__footer section__padding">
@@ -51,25 +53,35 @@ const Footer = () => (
       </div>
       <div className="gpt3__footer-links_div">
         <h4>Get in touch</h4>
-        <FaLocationArrow/>
+        <FaLocationArrow />
         <p>
           A- 48/2, Mahavir Enclave, Near Dwarka puri bus stand NewDelhi-110059
         </p>
-        <FaMobileAlt/>
+        <FaMobileAlt />
         <p>+919015739026,+918468839026</p>
-        <FaEnvelope/>
+        <FaEnvelope />
         <p>sk@itinfrasolutions.co.in</p>
       </div>
       <div>
-      <div className="flex items-center gap-3 mt-6">
-              <a href="#">
-                <FaInstagram className="text-3xl" />
+      <div className="gpt3__footer-links_div">
+      <h4 >Follows Us</h4>
+      </div>
+      <div className="gpt3__footer-links_social">
+        
+              <a href="https://www.google.com/" target="_blank">
+                <FaInstagram className="text-3xl instagram" />
               </a>
               <a href="#">
-                <FaFacebook className="text-3xl" />
+                <FaFacebook className="text-3xl facebook" />
+              </a>
+              <a href="https://www.linkedin.com/in/abhi302/" target="_blank">
+                <FaLinkedin className="text-3xl linkedin" />
               </a>
               <a href="#">
-                <FaLinkedin className="text-3xl" />
+                <FaTwitter className="text-3xl twitter" />
+              </a>
+              <a href="#">
+                <FaYoutube className="text-3xl youtube " />
               </a>
             </div>
       </div>

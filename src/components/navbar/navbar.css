@@ -12,6 +12,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 8rem;
 }
 
 .gpt3__navbar-links_logo {
@@ -28,6 +29,7 @@
 .gpt3__navbar-links_container {
     display: flex;
     flex-direction: row;
+    gap: 3rem;
 }
 
 .gpt3__navbar-sign {

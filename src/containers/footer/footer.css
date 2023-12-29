@@ -72,6 +72,7 @@
 
 .gpt3__footer-links_logo p {
     font-family: var(--font-family);
+    /* font-family: ui-sans-serif; */
     font-size: 15px;
     line-height: 15px;
     color: #fff;
@@ -82,6 +83,21 @@
     justify-content: flex-start;
     flex-direction: column;
 }
+.gpt3__footer-links_social{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 0vh;
+
+}
+.text-3xl{
+height: 30px;
+width: 60px;
+
+
+}
+
 
 .gpt3__footer-links_div h4 {
     font-size: 22px;
